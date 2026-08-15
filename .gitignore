@@ -1,0 +1,40 @@
+# ======================
+# Python 学习仓库忽略清单
+# 作用：git 提交时自动跳过这些文件
+# ======================
+
+# ---- 环境变量：含 API 密钥，绝不能提交！----
+.env
+.env.*
+
+# ---- Python 缓存与虚拟环境 ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 日志文件 ----
+*.log
+
+# ---- 数据文件（含业务数据，不适合进代码仓库）----
+*.xlsx
+*.xls
+*.csv
+*.json
+*.png
+*.jpg
+*.jpeg
+
+# ---- 本地输出文件夹 ----
+工作台输出/
+邮件整理结果/
+summaries/
+backup/
+report/
+kb/
+messy_folder/
+docs/
+emails/
+
+# ---- 独立仓库（hello-world 已单独推送）----
+hello-world/
