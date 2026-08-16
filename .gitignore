@@ -20,10 +20,17 @@ venv/
 *.xlsx
 *.xls
 *.csv
+!data/*.csv
 *.json
 *.png
 *.jpg
 *.jpeg
+*.db
+
+# ---- 临时检查文件（终端回显替代品，无价值）----
+*_check.txt
+pip_install*.txt
+Python_study_test.txt
 
 # ---- 本地输出文件夹 ----
 工作台输出/
